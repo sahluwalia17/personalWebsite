@@ -1,7 +1,24 @@
-body{
+html, body{
 	margin: 0;
-	padding: 0;
-	background-size: cover;
+	padding: 0
+	background-color: #454545;
+}
+
+.navBar{
+	background-color: #FFFF00;
+	color: white;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+.navBar > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+.navBar > li > a {
+	text-decoration: none;
 }
 
 .slider{
@@ -14,12 +31,6 @@ body{
 
 .rounded{
 	border-radius: 12px;
-}
-
-.buttonDivider{
-	width:5px;
-    height:1px;
-    display:inline-block;
 }
 
 @keyframes slide{
@@ -70,7 +81,3 @@ body{
     margin-right: auto;
 }
 
-.links {
-            text-align: right;
-            
-        }
