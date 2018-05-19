@@ -16,6 +16,12 @@ body{
 	border-radius: 12px;
 }
 
+.buttonDivider{
+	width:5px;
+    height:1px;
+    display:inline-block;
+}
+
 @keyframes slide{
 	0%{
 		background-image: url("images/wheel.png");
