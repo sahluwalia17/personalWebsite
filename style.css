@@ -5,11 +5,12 @@ html, body{
 }
 
 .navBar{
-	background-color: #FFFF00;
-	color: white;
+	background-color: #00000;
+	text-decoration-color: white;
 	list-style: none;
 	text-align: center;
 	padding: 20px 0 20px 0;
+	margin: 0px;
 }
 
 .navBar > li {
@@ -19,6 +20,7 @@ html, body{
 
 .navBar > li > a {
 	text-decoration: none;
+	color: black;
 }
 
 .slider{
@@ -61,6 +63,7 @@ html, body{
 }
 
 .centered {
+	font
     position: absolute;
     top: 50%;
     left: 50%;
