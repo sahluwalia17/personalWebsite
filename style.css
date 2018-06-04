@@ -3,6 +3,7 @@ html, body{
 	padding: 0
 	background-color: #454545;
 	height: 95%;
+	padding-bottom: 500px;
 }
 
 .navBar{
@@ -70,6 +71,11 @@ h1 {
 	position: absolute;
     bottom: 8px;
     right: 16px;
+}
+
+.aboutme{
+	padding-right: 100px;
+	font-family: "new century schoolbook";
 }
 
 .sidepic {
