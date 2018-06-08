@@ -1,9 +1,12 @@
-html, body{
+html{
 	margin: 0;
 	padding: 0
-	background-color: #454545;
 	height: 95%;
 	padding-bottom: 500px;
+}
+
+body{
+  background-color: #7dd0b6;
 }
 
 .navBar{
